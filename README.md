@@ -1,4 +1,3 @@
-# moojo
 ## User Credentials Protocol
 
 A blockchain protocol for managing user credentials. This protocol should enable the creation, assignment, and retrieval of user credentials while maintaining efficiency and privacy.

@@ -29,18 +29,6 @@ async function main() {
   console.log("Fetched Metadata from Arweave:", metadata);
 
 
- const newArweaveTxHash = arweaveHashTx2; 
-// await CredentialManager.updateCredentialType(typeId, newArweaveTxHash);
-// console.log(`Updated Credential Type ${typeId} with new Arweave Tx Hash: ${newArweaveTxHash}`);
-
- // Update User Credential Metadata (Change user's metadata)
- const credentialIndex = 0;  // Index of the credential to update
- const newMetadata = 'Updated on-chain metadata';  // New metadata to be stored on-chain
- await CredentialManager.updateUserCredentialMetadata(userAddress, credentialIndex, newMetadata);
- console.log(`Updated credential for user ${userAddress} at index ${credentialIndex} with new metadata: ${newMetadata}`);
-
-
-
 }
 
 main().catch(console.error);

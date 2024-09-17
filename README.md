@@ -94,6 +94,7 @@ Edit and replace the private key in the field **PRIVATE_KEY** with the contract 
 
 The index.js file allows to run the credentialManager.js API, assuming that the metadata was already stored on Arweave.
 If you wish to add new metadata on Arweave, you can run the script arweaveManager.js that will upload the content stored in metadata1.json.
+
 If so, you will have to modify the index.js file with the apropriate arweaveHashTx1 and arweaveHashTx2.
 
 

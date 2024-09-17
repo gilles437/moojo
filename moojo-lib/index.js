@@ -39,9 +39,6 @@ async function main() {
  await CredentialManager.updateUserCredentialMetadata(userAddress, credentialIndex, newMetadata);
  console.log(`Updated credential for user ${userAddress} at index ${credentialIndex} with new metadata: ${newMetadata}`);
 
- // Fetch metadata from Arweave
- const newMetadata2 = await CredentialManager.fetchMetadataFromArweave(metadataTxHash);
- console.log("Fetched Metadata from Arweave:", newMetadata2);
 
 
 }
